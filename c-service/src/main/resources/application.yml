@@ -1,0 +1,10 @@
+server:
+  port: 4013
+  context-path: /
+spring:
+  application:
+    name: c-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4001/eureka/
