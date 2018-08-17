@@ -9,7 +9,9 @@
         <module name="a-service" />
         <module name="b-service" />
         <module name="c-service" />
+        <module name="config-server" />
         <module name="eureka-server" />
+        <module name="zuul-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,8 +19,10 @@
       <module name="b-service" target="1.8" />
       <module name="c-service" target="1.8" />
       <module name="common-module" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />
+      <module name="zuul-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

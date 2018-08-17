@@ -12,6 +12,8 @@
         <module>a-service</module>
         <module>b-service</module>
         <module>c-service</module>
+        <module>zuul-service</module>
+        <module>config-server</module>
     </modules>
 
 

@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/a-service/a-service.iml" filepath="$PROJECT_DIR$/a-service/a-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/b-service/b-service.iml" filepath="$PROJECT_DIR$/b-service/b-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/c-service/c-service.iml" filepath="$PROJECT_DIR$/c-service/c-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-service/zuul-service.iml" filepath="$PROJECT_DIR$/zuul-service/zuul-service.iml" />
     </modules>
   </component>
 </project>

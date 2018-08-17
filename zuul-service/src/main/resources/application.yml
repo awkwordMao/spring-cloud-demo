@@ -1,0 +1,18 @@
+server:
+  context-path: /
+  port: 4015
+spring:
+  application:
+    name: zuul-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4001/eureka/
+zuul:
+  routes:
+    api-1:
+      path: /b/**
+      serviceId: b-service
+    api-2:
+      path: /c/**
+      serviceId: c-service
