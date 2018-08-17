@@ -7,5 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/awkwordMao/spring-cloud-demo
-          
+          uri: https://github.com/awkwordMao/spring-cloud-demo/
+          search-paths: config-server
+          username:
+          password:
