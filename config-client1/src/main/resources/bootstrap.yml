@@ -1,0 +1,10 @@
+server:
+  port: 4021
+spring:
+  application:
+    name: config-client1
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:4002/

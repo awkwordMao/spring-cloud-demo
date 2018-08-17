@@ -9,6 +9,8 @@
         <module name="a-service" />
         <module name="b-service" />
         <module name="c-service" />
+        <module name="config-client1" />
+        <module name="Config-client1" />
         <module name="config-server" />
         <module name="eureka-server" />
         <module name="zuul-service" />
@@ -19,6 +21,8 @@
       <module name="b-service" target="1.8" />
       <module name="c-service" target="1.8" />
       <module name="common-module" target="1.8" />
+      <module name="Config-client1" target="1.8" />
+      <module name="config-client1" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />

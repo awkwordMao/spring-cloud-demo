@@ -14,6 +14,7 @@
         <module>c-service</module>
         <module>zuul-service</module>
         <module>config-server</module>
+        <module>config-client1</module>
     </modules>
 
 
