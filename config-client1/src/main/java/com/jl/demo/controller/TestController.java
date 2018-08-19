@@ -10,6 +10,8 @@ public class TestController {
     @Value("${name}")
     String name;
 
+    @Value("${version}")
+    String version;
     @RequestMapping(value = "/hi", method = RequestMethod.GET)
     public String hi(){
         return name;

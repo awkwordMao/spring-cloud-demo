@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: config-client1
+    name: config-client1,config
   cloud:
     config:
       label: master

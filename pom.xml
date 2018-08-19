@@ -30,12 +30,12 @@
         <spring-cloud.version>Camden.SR5</spring-cloud.version>
     </properties>
 
-    <dependencies>
+    <!--<dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
-    </dependencies>
+    </dependencies>-->
 
     <dependencyManagement>
         <dependencies>
