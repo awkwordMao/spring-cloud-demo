@@ -1,0 +1,13 @@
+server:
+  port: 4002
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/awkwordMao/spring-cloud-demo/
+          search-paths: config-server
+          username:
+          password:
