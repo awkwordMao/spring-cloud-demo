@@ -2,7 +2,7 @@ server:
   port: 4002
 spring:
   application:
-    name: config-server
+    name: config-service
   cloud:
     config:
       server:
@@ -11,3 +11,14 @@ spring:
           search-paths: config-server
           username:
           password:
+          default-label: master
+  rabbitmq:
+    host: localhost
+    port: 5672
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4001/eureka/
+management:
+  security:
+    enabled: false

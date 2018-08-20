@@ -1,2 +1,7 @@
-server:
-  port: 4021
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+management:
+  security:
+    enabled: false

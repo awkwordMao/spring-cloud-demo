@@ -1,9 +1,20 @@
-
 spring:
   application:
-    name: config-client1,config
+    name: config
   cloud:
     config:
       label: master
       profile: dev
-      uri: http://localhost:4002/
+      discovery:
+        enabled: true
+        service-id: config-service
+    bus:
+      trace:
+        enabled: true
+#      uri: http://localhost:4002/
+server:
+  port: 4022
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4001/eureka/
