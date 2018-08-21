@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/config-client1/config-client1.iml" filepath="$PROJECT_DIR$/config-client1/config-client1.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth-zipkin-client/sleuth-zipkin-client.iml" filepath="$PROJECT_DIR$/sleuth-zipkin-client/sleuth-zipkin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth-zipkin-client2/sleuth-zipkin-client2.iml" filepath="$PROJECT_DIR$/sleuth-zipkin-client2/sleuth-zipkin-client2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth-zipkin-server/sleuth-zipkin-server.iml" filepath="$PROJECT_DIR$/sleuth-zipkin-server/sleuth-zipkin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul-service/zuul-service.iml" filepath="$PROJECT_DIR$/zuul-service/zuul-service.iml" />
     </modules>

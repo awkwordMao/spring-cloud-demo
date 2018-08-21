@@ -8,6 +8,9 @@
     <file url="file://$PROJECT_DIR$/config-client1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sleuth-zipkin-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sleuth-zipkin-client2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sleuth-zipkin-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-service" charset="UTF-8" />
   </component>
 </project>

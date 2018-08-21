@@ -1,0 +1,13 @@
+server:
+  port: 4032
+  context-path: /
+spring:
+  application:
+    name: sleuth-zipkin-client2
+  zipkin:
+    base-url: http://localhost:4030/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4001/eureka/
+

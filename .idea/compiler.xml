@@ -9,10 +9,13 @@
         <module name="a-service" />
         <module name="b-service" />
         <module name="c-service" />
-        <module name="config-client1" />
         <module name="Config-client1" />
+        <module name="config-client1" />
         <module name="config-server" />
         <module name="eureka-server" />
+        <module name="sleuth-zipkin-client" />
+        <module name="sleuth-zipkin-client2" />
+        <module name="sleuth-zipkin-server" />
         <module name="zuul-service" />
       </profile>
     </annotationProcessing>
@@ -25,6 +28,9 @@
       <module name="config-client1" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="sleuth-zipkin-client" target="1.8" />
+      <module name="sleuth-zipkin-client2" target="1.8" />
+      <module name="sleuth-zipkin-server" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />
       <module name="zuul-service" target="1.8" />
     </bytecodeTargetLevel>

@@ -1,0 +1,5 @@
+server:
+  port: 4030
+spring:
+  application:
+    name: sleuth-zipkin-server
