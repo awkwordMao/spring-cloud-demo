@@ -1,20 +1,38 @@
 spring:
   application:
-    name: config
+    name: config-lj
   cloud:
     config:
       label: master
-      profile: dev
+      profile: test
       discovery:
         enabled: true
-        service-id: config-service
+        service-id: config-center-server-test
+
+#      uri: http://127.0.0.1:8888
     bus:
       trace:
         enabled: true
+#      name: config-lj
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
 #      uri: http://localhost:4002/
+management:
+  security:
+    enabled: false
+#endpoints:
+#  refresh:
+#    enabled: true
 server:
   port: 4022
 eureka:
   client:
-    service-url:
-      defaultZone: http://localhost:4001/eureka/
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname:eureka.einwin.com}:${eureka.server.port:18761}/eureka/
+      #defaultZone: http://eureka01.ms.com:18761/eureka/,http://eureka02.ms.com:18761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${eureka.instance.ip-address:${spring.cloud.client.ipAddress}}:${server.port}
